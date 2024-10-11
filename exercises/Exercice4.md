@@ -27,3 +27,29 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+
+
+
+## Answers :
+
+We'll use JavaParser in order to parse the Java source code, analyze every public class, and find its private fields. For each private field, we check if there is a public getter method with the name get<FieldName>() returning that field's value. If not, we log details of the field-name, class, and package-to a report.
+
+Now we will only modify the **PublicElementsPrinter** class so that it can detects private fields without a public getter in some certain public class
+
+And for the **Main class** we will only add a feature that will generate for us a report in TXT that lists for each detected field: its name, the name of the declaring class and the package of the declaring class.
+
+now when we execute the main class, we can see that the implementation works perfectly so it specified that report is a private field that doesn’t have a public getter and to test more if our code works we added a simple class Person that was provided for us in the exercice : 
+
+![Class Person](https://github.com/user-attachments/assets/43782afa-12e1-4836-ad48-5407c662723b)
+
+
+and normally we should get in the report file the attribute age because it is indeed private and it doesn’t have a public getter. and this what we got 
+
+
+![Report file](https://github.com/user-attachments/assets/749b9e21-0de4-42d7-9dc4-91dbf1170a22)
+
+
+
+
+
