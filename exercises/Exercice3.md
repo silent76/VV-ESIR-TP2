@@ -22,22 +22,31 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
-Explanation : 
+
+**Explanation :** 
 To extend PMD with a new rule that detects complex code by identifying instances of three or more nested if statements in Java programs, we can create a custom rule using XPath. Below is the XML definition for this rule.
 
-Explanation of the Rule:
+`Explanation of the Rule:`
+
 Rule Reference: This rule extends the existing NestedIf rule from PMD's design ruleset.
+
 Description: A brief explanation of the purpose of the rule.
+
 Properties: The maximumNesting property is set to 3 to identify three or more nested if statements.
 
-XPath Expression:
+
+**XPath Expression:**
 The XPath expression //IfStatement[count(ancestor::IfStatement) >= 2] identifies if statements that have two or more ancestors that are also if statements, thus detecting the third nested level.
-Message: A message indicating to the developer that three or more nested if statements should be avoided for better readability.
+
+**Message:** A message indicating to the developer that three or more nested if statements should be avoided for better readability.
 We'll use **JavaParser** to parse Java source code, inspect each public class, and identify its private fields. For each private field, we'll check if there's a public getter method with the name `get<FieldName>()` that returns the value of that field. If not, we'll log the details of the field (its name, class, and package) in a report.
 
-The final output can be written to a report in a format like **CSV** for easy readability.
+The final output will be written in a **TXT** file for easy readability.
+
 Results:
+
 ![if](https://github.com/user-attachments/assets/197127ef-00f1-46d6-8233-42a35e0f4d1d)
+
 
 
 
