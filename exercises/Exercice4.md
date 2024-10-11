@@ -27,3 +27,13 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+
+
+Answer : 
+We'll use JavaParser in order to parse the Java source code, analyze every public class, and find its private fields. For each private field, we check if there is a public getter method with the name get<FieldName>() returning that field's value. If not, we log details of the field-name, class, and package-to a report.
+
+Now we will only modify the **PublicElementsPrinter** class so that it can detects private fields without a public getter in some certain public class
+
+And for the **Main class** we will only add a feature that will generate for us a report in TXT that lists for each detected field: its name, the name of the declaring class and the package of the declaring class
+
