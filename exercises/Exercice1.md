@@ -45,6 +45,7 @@ LCC uses both direct and indirect connections. However in this class there is no
 so this means that LCC = TCC = 1.
 
 
+
 **Could LCC Be Lower Than TCC?**
 No, LCC cannot be lower than TCC for any class because TCC only counts direct connections between method pairs, while LCC includes both direct and indirect connections. 
 
