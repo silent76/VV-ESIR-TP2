@@ -51,19 +51,22 @@ there’s 79 method for this project
 We can see the max CC is  7
 
 If CC is low, then in general, the code is simpler; hence, more straightforward to understand and maintain and less difficult to test. On the other hand, a high CC indicates complex code that is harder to maintain and more bug-prone since there are more ways to go through the code.
+
 Low Cyclomatic Complexity:
 
 Easier to comprehend: Low CC normally means fewer branches, such as if statements, for statements, while statements, and switch statements; thus, it will be easier to trace. Easier to maintain: Fewer paths mean fewer decision points that the developers have to worry about while making modifications in code without creating further bugs.
 Easier to test: Low complexity means fewer test cases are needed for good test coverage because there are fewer independent paths to consider.
-	Lower bug risk: Fewer decision points mean reduced likelihood of logical errors or bugs.
+Lower bug risk: Fewer decision points mean reduced likelihood of logical errors or bugs.
 
 Low CC is generally considered good in that it means the code is well-structured, straightforward, and less liable to have bugs.
+
 High Cyclomatic Complexity (Bad):
 
 Harder to understand: High CC usually signifies that a method or function is doing too much, where there are many branches, loops, and decision points involved, which will be very hard to follow.
 Harder to maintain: In general, the more complex the code, the harder it is to change or extend. For instance, there is much higher risk of introducing bugs when modifications are being made.
 Harder to test: More paths mean more tests for adequate coverage. Normally, high CC means more test cases to cover all the possible execution paths and hence increasing the testing effort.
 Higher risk of bugs: More branches and decision points mean more possibilities to introduce errors, especially when code is changed over time.
+
 
 Ideal Cyclomatic Complexity Range:
 
