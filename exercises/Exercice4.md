@@ -31,7 +31,7 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 
 
-##Answers :
+## Answers :
 
 We'll use JavaParser in order to parse the Java source code, analyze every public class, and find its private fields. For each private field, we check if there is a public getter method with the name get<FieldName>() returning that field's value. If not, we log details of the field-name, class, and package-to a report.
 
