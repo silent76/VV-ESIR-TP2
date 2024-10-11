@@ -27,7 +27,9 @@ In this case:
 - Therefore, every pair of methods is directly connected via the `balance` attribute.
 
 Since all methods are directly connected through the shared attribute `balance`, TCC = LCC. There's no indirect method pair connection that would only be counted by LCC but not by TCC.
- `TCC (Tight Class Cohesion) : Connexions directes`
+
+`TCC (Tight Class Cohesion) : Connexions directes`
+
 For TCC,  we look for direct connexions : 
 BankAccount(double initialBalance) modifies balance directly.
 deposit(double amount) modifies balance directly.
