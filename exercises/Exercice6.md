@@ -16,6 +16,7 @@ You may use [javaparser-starter](../code/javaparser-starter) as a starting point
 TCC means Tight Class Cohesion and is a software metric. In object-oriented programming, it measures the cohesion of a class. The greater the value, the more cohesive the class, meaning that its methods tend to interact more with each other, all sharing a common purpose.
 
 Or, in other words, TCC is a metric that measures the degree to which methods of a class are structurally bound together by references to its instance variables. If two methods in a class share many instance variables, then the class is said to have high cohesion.
+
 ![Screenshot from 2024-10-11 13-50-48](https://github.com/user-attachments/assets/91cec286-0a51-425d-aa06-15f906fb34e7)
 
 ## Collect Methods and Instance Variables:
