@@ -1,0 +1,25 @@
+Package,Class Name,TCC
+org.apache.commons.math4.userguide.ExampleUtils,ExampleUtils,0.00
+org.apache.commons.math4.userguide.ExampleUtils.ExampleFrame,ExampleFrame,0.00
+org.apache.commons.math4.userguide.FastMathTestPerformance,FastMathTestPerformance,0.00
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample,ConstantVoltageExample,0.00
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample.VoltMeter,VoltMeter,0.00
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample.Display,Display,0.00
+org.apache.commons.math4.userguide.filter.CannonballExample,CannonballExample,0.00
+org.apache.commons.math4.userguide.filter.CannonballExample.Cannonball,Cannonball,0.00
+org.apache.commons.math4.userguide.filter.CannonballExample.Display,Display,0.00
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison,ClusterAlgorithmComparison,0.00
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison.Display,Display,0.00
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison.ClusterPlot,ClusterPlot,0.00
+org.apache.commons.math4.userguide.genetics.PolygonChromosome,PolygonChromosome,0.00
+org.apache.commons.math4.userguide.genetics.Polygon,Polygon,0.00
+org.apache.commons.math4.userguide.genetics.RandomPolygonMutation,RandomPolygonMutation,0.00
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample,ImageEvolutionExample,0.00
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample.Display,Display,0.00
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample.Display.ImagePainter,ImagePainter,0.00
+org.apache.commons.math4.userguide.genetics.HelloWorldExample,HelloWorldExample,0.00
+org.apache.commons.math4.userguide.genetics.HelloWorldExample.StringChromosome,StringChromosome,0.00
+org.apache.commons.math4.userguide.genetics.HelloWorldExample.RandomCharacterMutation,RandomCharacterMutation,0.00
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison,LowDiscrepancyGeneratorComparison,0.00
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison.Display,Display,0.00
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison.Plot,Plot,0.00
