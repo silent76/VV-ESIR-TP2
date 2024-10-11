@@ -29,6 +29,7 @@ For each pair of methods, check if they share any instance variables. A method p
 Count the number of method pairs that are connected (i.e., share instance variables).
 ### Calculate Total Pairs:
 The total number of method pairs in a class is given by the combination formula:
+
 ![Screenshot from 2024-10-11 13-52-16](https://github.com/user-attachments/assets/8017f06d-725c-42ae-8f7a-e1fdce513ac6)
 
 Where n is the number of methods in the class.
