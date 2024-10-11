@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="CustomRuleset"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        This ruleset contains custom rules to enforce coding standards and best practices.
+    </description>
+
+    <rule name="tooManyNestedIfs"
+          language="java"
+          message="Avoid using more than 3 nested if statements."
+          class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        
+        <description>
+            This rule detects methods with excessive nesting of if statements.
+        </description>
+        
+        <priority>3</priority>
+        
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//IfStatement[
+    count(ancestor::IfStatement) >= 2
+]
+]]>
+                </value>
+            </property>
+        </properties>
+    </rule>
+
+</ruleset>
+
