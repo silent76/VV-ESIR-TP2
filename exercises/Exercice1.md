@@ -28,7 +28,7 @@ In this case:
 
 Since all methods are directly connected through the shared attribute `balance`, TCC = LCC. There's no indirect method pair connection that would only be counted by LCC but not by TCC.
 
-`TCC (Tight Class Cohesion) : Connexions directes`
+`TCC (Tight Class Cohesion) : Connexions directes :`
 
 For TCC,  we look for direct connexions : 
 BankAccount(double initialBalance) modifies balance directly.
@@ -39,7 +39,8 @@ getBalance() can access directly to balance.
 **Conclusion for TCC** : All methods share directly the attribute balance. So, all the pairs are directly connected.
 TCC=6 possible pairs / 6 direct connexions ​= 1
  
-`LCC (Loose Class Cohesion) : Connexions directes et indirectes`
+`LCC (Loose Class Cohesion) : Connexions directes et indirectes :`
+
 LCC uses both direct and indirect connections. However in this class there is no indirect connection, because all methods are already directly connected via the attribute Balance.
 so this means that LCC = TCC = 1.
 
